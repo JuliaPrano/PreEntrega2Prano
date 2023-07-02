@@ -34,7 +34,7 @@ nav{
 }
 main{
     grid-area: main;
-    background-color: rgb(59, 35, 194);
+    background-color: rgba(158, 143, 243, 0.74);
 }
 
 footer{
