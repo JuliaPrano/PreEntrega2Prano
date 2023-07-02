@@ -15,21 +15,23 @@ body{
         "nav main main"
         "nav main main"
         "footer footer footer";
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
 }
 header{
     grid-area: header;
     background-color: violet;
+    padding: 1rem;
 }
 nav{
     grid-area: nav;
-    background-color: azure;
+    background-color: rgb(59, 221, 221);
 }
 main{
     grid-area: main;
-    background-color: azure;
+    background-color: rgb(59, 35, 194);
 }
+
 footer{
     grid-area: footer;
     background-color:  rgb(22, 2, 41);
