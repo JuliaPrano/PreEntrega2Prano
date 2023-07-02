@@ -8,24 +8,29 @@ body{
     display: grid;
     margin: 0;
     padding: 0;
-    grid-template-rows: 0.5fr 2fr 2fr 0.5fr;
-    grid-template-columns: 0.5fr repeat(2, 1fr);
+    grid-template-rows: 0.5fr 0.5fr 2fr 2fr 0.5fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
         "header header header"
-        "nav main main"
-        "nav main main"
+        "nav nav nav"
+        "main main main"
+        "main main main"
         "footer footer footer";
     grid-column-gap: 5px;
     grid-row-gap: 5px;
 }
 header{
     grid-area: header;
-    background-color: violet;
+    background-color: rgb(194, 245, 203);
     padding: 1rem;
 }
 nav{
     grid-area: nav;
-    background-color: rgb(59, 221, 221);
+    background-color: rgb(255, 255, 255);
+}
+.logonavimg{
+    height: 3rem;
+    
 }
 main{
     grid-area: main;
