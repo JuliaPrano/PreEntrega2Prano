@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     height: 100vh;
     display: grid;
     margin: 0;
@@ -16,27 +17,51 @@ body{
         "main main main"
         "main main main"
         "footer footer footer";
-    
+
 }
-header{
+
+header {
     grid-area: header;
     background-color: rgb(194, 245, 203);
     padding: 1rem;
 }
-nav{
+
+nav {
     grid-area: nav;
     background-color: rgb(255, 255, 255);
 }
-.logonavimg{
+
+.logonavimg {
     height: 3rem;
-    
+
 }
-main{
+
+main {
+    height: 100vh;
     grid-area: main;
     background-color: rgba(158, 143, 243, 0.74);
 }
 
-footer{
+#nosotros_imagenuno {
+    background-image: url(../assets/istockphoto-901653798-612x612.jpg); 
+    height:15rem;
+    background-position: center;
+}
+
+#nosotros_imagendos {
+    background-image: url(../assets/istockphoto-921115238-612x612.jpg);
+    height: 15rem;
+}
+
+#contacto {
+    height: 70%;
+    /* width: 100%; */
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(194, 245, 203)
+}
+
+footer {
     grid-area: footer;
-    background-color:  rgb(22, 2, 41);
+    background-color: rgb(22, 2, 41);
 }
